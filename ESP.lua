@@ -6,6 +6,9 @@ local fonts = {
 	Classic = Enum.Font.Code
 }
 
+local ESP_LIST = game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua"
+ESP_LIST = game:GetService"HttpService":JSONDecode(ESP_LIST)
+
 local function GetFont(String)
    if String == "Fredoka" then
      return fonts.Fredoka
@@ -60,4 +63,16 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.TextScaled = true
   BBGUI_Text.TextSize = 14.000
   BBGUI_Text.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(Player)
+    Player.CharacterAdded:Connect(function(Character)
+      IdentifyPlayer(ESP_LIST, Player)			
+    end)
+end)
+
+for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
+   if Value.Character then
+     IdentifyPlayer(ESP_LIST, Value)
+   end
 end
