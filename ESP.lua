@@ -6,12 +6,9 @@ local fonts = {
 	Classic = Enum.Font.Code
 }
 
-local ESP_LIST = game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua"
-ESP_LIST = game:GetService"HttpService":JSONDecode(ESP_LIST)
-
 local function GetFont(String)
    if String == "Fredoka" then
-     return fonts.Fredoka
+     return fonts.FredokaOne
    elseif String == "Bangers" then
      return fonts.Bangers
    elseif String == "Creepster" then
@@ -23,21 +20,21 @@ local function GetFont(String)
    end
 end
 
-local function IdentifyPlayer(Table, Plr)
-    for i = 1,#Table do
-      if Table[i].userid == Plr.UserId then
-        Tag(Plr, Table[i].TagText .. Table[i].TagIdentification, Table[i].ColorTable, GetFont(Table[i].Font))
-      end
-   end
+local function ESP_List()
+  return game:GetService"HttpService":JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua")
 end
 
 local function Tag(Player, Text, Color, Font)
+    
+  local Font = nil
     
   local R = Color[1]
   local G = Color[2]
   local B = Color[3]
   
-  local ChosenFont = Font
+  if Font ~= nil then
+     ChosenFont = Font
+  end
   
   if Font == nil then
     ChosenFont = fonts.Classic
@@ -46,12 +43,13 @@ local function Tag(Player, Text, Color, Font)
   local BBGUI = Instance.new("BillboardGui")
   local BBGUI_Text = Instance.new("TextLabel")
   
-  BBGUI.Parent = Player.Character:WaitForChild"Torso"
+  BBGUI.Parent = Player.Character:WaitForChild"Head"
   BBGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
   BBGUI.Active = true
   BBGUI.AlwaysOnTop = true
   BBGUI.LightInfluence = 1.000
   BBGUI.Size = UDim2.new(0, 200, 0, 50)
+  BBGUI.StudsOffset = Vector3.new(0, 2, 0)
   
   BBGUI_Text.Parent = BBGUI
   BBGUI_Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -65,14 +63,34 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.TextWrapped = true
 end
 
+local function IdentifyPlayer(Table, Plr)
+    for i = 1,#Table do
+      if Table[i].userid == Plr.UserId then
+        Tag(Plr, Table[i].TagText .. Table[i].TagIdentification, Table[i].ColorTable, GetFont(Table[i].Font))
+        return true
+      end
+   end
+end
+
+local function CAESP(PLR)
+  PLR.CharacterAdded:Connect(function(Character)
+    local W4H = Character:WaitForChild"Head"
+    
+    IdentifyPlayer(ESP_LIST(), PLR)
+  end)
+end
+
 game.Players.PlayerAdded:Connect(function(Player)
     Player.CharacterAdded:Connect(function(Character)
-      IdentifyPlayer(ESP_LIST, Player)			
+      IdentifyPlayer(ESP_LIST(), Player)			
     end)
 end)
 
 for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
+    
+   CAESP(Value)
+   
    if Value.Character then
-     IdentifyPlayer(ESP_LIST, Value)
+     IdentifyPlayer(ESP_LIST(), Player)	
    end
 end
