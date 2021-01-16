@@ -1,3 +1,5 @@
+_G.ESP = true
+
 local fonts = {
 	Fredoka = Enum.Font.FredokaOne,
 	Bangers = Enum.Font.Bangers,
@@ -91,7 +93,6 @@ game.Players.PlayerAdded:Connect(function(Player)
 end)
 
 for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
-    
    CAESP(Value)
    
    if Value.Character then
@@ -99,7 +100,7 @@ for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
    end
 end
 
-game:GetService"RunService".HeartBeat:Connect(function()
+game:GetService"RunService".Heartbeat:Connect(function()
   if _G.ESP then
     for i = 1,#BBGUIS do
       BBGUIS[i].Enabled = true
