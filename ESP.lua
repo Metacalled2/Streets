@@ -6,6 +6,8 @@ local fonts = {
 	Classic = Enum.Font.Code
 }
 
+local BBGUIS = {}
+
 local function ESP_LIST()
   return game:GetService'HttpService':JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua")
 end
@@ -61,11 +63,13 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.TextScaled = true
   BBGUI_Text.TextSize = 25.00
   BBGUI_Text.TextWrapped = false
+	
+  table.insert(BBGUIS, BBGUI)
 end
 
 local function IdentifyPlayer(Table, Plr)
     for i = 1,#Table do
-      if Table[i].userid == Plr.UserId and not Plr.UserId == game.Players.LocalPlayer.UserId athen
+      if Table[i].userid == Plr.UserId and not Plr.UserId == game.Players.LocalPlayer.UserId then
         Tag(Plr, Table[i].TagText .. Table[i].TagIdentification, Table[i].ColorTable, GetFont(Table[i].Font))
         return true
       end
@@ -94,3 +98,16 @@ for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
      IdentifyPlayer(ESP_LIST(), Value)	
    end
 end
+
+game:GetService"RunService".HeartBeat:Connect(function()
+  if _G.ESP then
+    for i = 1,#BBGUIS do
+      BBGUIS[i].Enabled = true
+    end
+  elseif not _G.ESP then
+      for i = 1,#BBGUIS do
+        BBGUIS[i].Enabled = false
+      end		
+   end
+end
+end)
