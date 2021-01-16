@@ -6,6 +6,10 @@ local fonts = {
 	Classic = Enum.Font.Code
 }
 
+local function ESP_LIST()
+  return game:GetService'HttpService':JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua")
+end
+
 local function GetFont(String)
    if String == "Fredoka" then
      return fonts.FredokaOne
@@ -18,10 +22,6 @@ local function GetFont(String)
    elseif String == "Classic" then
      return fonts.Classic
    end
-end
-
-local function ESP_List()
-  return game:GetService"HttpService":JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua")
 end
 
 local function Tag(Player, Text, Color, Font)
@@ -59,8 +59,8 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.Text = Text
   BBGUI_Text.TextColor3 = Color3.fromRGB(R, G, B)
   BBGUI_Text.TextScaled = true
-  BBGUI_Text.TextSize = 14.000
-  BBGUI_Text.TextWrapped = true
+  BBGUI_Text.TextSize = 25.00
+  BBGUI_Text.TextWrapped = false
 end
 
 local function IdentifyPlayer(Table, Plr)
@@ -91,6 +91,6 @@ for Key, Value in pairs(game:GetService"Players":GetPlayers()) do
    CAESP(Value)
    
    if Value.Character then
-     IdentifyPlayer(ESP_LIST(), Player)	
+     IdentifyPlayer(ESP_LIST(), Value)	
    end
 end
