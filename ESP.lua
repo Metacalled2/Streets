@@ -109,5 +109,4 @@ game:GetService"RunService".HeartBeat:Connect(function()
         BBGUIS[i].Enabled = false
       end		
    end
-end
 end)
