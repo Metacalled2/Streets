@@ -152,5 +152,27 @@
          0
       ],
       "TagText":"Tester"
+   },
+   {
+      "Font":"Creepster",
+      "userid":713824573,
+      "TagIdentification":" [ Scripter ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Metacalled"
+   },
+   {
+      "Font":"Creepster",
+      "userid":105183043,
+      "TagIdentification":" [ Scripter ] ",
+      "ColorTable":[
+         20,
+         247,
+         244
+      ],
+      "TagText":"Charlie"
    }
 ]
