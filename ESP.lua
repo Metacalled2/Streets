@@ -17,6 +17,10 @@ local fonts = {
 local BBGUIS = {}
 
 local function ESP_LIST()
+  --[[
+   DEBUGGING
+  ]]
+  warn(game:GetService'HttpService':JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua"))
   return game:GetService'HttpService':JSONDecode(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/Tables/ESP_LIST.lua")
 end
 
