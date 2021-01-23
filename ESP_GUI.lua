@@ -10,14 +10,18 @@ local BD = Instance.new("TextLabel")
 local ESP = Instance.new("TextLabel")
 local STNGS = Instance.new("TextLabel")
 
-ScreenGui.Parent = game:GetService"CoreGui"
+ScreenGui.Parent = game:GetService"GoreGui"
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+local Huh = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"}
+
+ScreenGui.Name = Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)] .. Huh[math.random(1, #Huh)]
 
 Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(80, 80, 121)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(-0.072, 0, 0.425999999, 0)
+Main.Position = UDim2.new(-0.0719999969, 0, 0.425999999, 0)
 Main.Size = UDim2.new(0, 137, 0, 146)
 
 OC.Name = "O/C"
@@ -101,7 +105,7 @@ STNGS.TextScaled = true
 STNGS.TextSize = 14.000
 STNGS.TextWrapped = true
 
-local function UCWBQBY_fake_script() -- OC.O/C 
+local function ZWKLGON_fake_script() -- OC.O/C 
 	local script = Instance.new('LocalScript', OC)
 
 	local Button = script.Parent
@@ -113,22 +117,22 @@ local function UCWBQBY_fake_script() -- OC.O/C
 		if not (OpenST) and not (DoingT) then
 			DoingT = true
 			OpenST = true
-			Button.Rotation = 0
+			Button.Rotation = 180
 			Main_F:TweenPosition(UDim2.new(0, 0,0.426, 0))
 			DoingT = false
 		else
 			if (OpenST) and not (DoingT) then
 				DoingT = true
 				OpenST = false
-				Button.Rotation = 180
+				Button.Rotation = 0
 				Main_F:TweenPosition(UDim2.new(-0.072, 0,0.426, 0))
 				DoingT = false
 			end
 		end
 	end)
 end
-coroutine.wrap(UCWBQBY_fake_script)()
-local function UUYMCSI_fake_script() -- BD_B.BD_B 
+coroutine.wrap(ZWKLGON_fake_script)()
+local function PEPWK_fake_script() -- BD_B.BD_B 
 	local script = Instance.new('LocalScript', BD_B)
 
 	local Button = script.Parent
@@ -152,8 +156,8 @@ local function UUYMCSI_fake_script() -- BD_B.BD_B
 		end
 	end)
 end
-coroutine.wrap(UUYMCSI_fake_script)()
-local function JWQG_fake_script() -- ESP_B.ESP_B 
+coroutine.wrap(PEPWK_fake_script)()
+local function ZQEBYWN_fake_script() -- ESP_B.ESP_B 
 	local script = Instance.new('LocalScript', ESP_B)
 
 	local Button = script.Parent
@@ -177,4 +181,4 @@ local function JWQG_fake_script() -- ESP_B.ESP_B
 		end
 	end)
 end
-coroutine.wrap(JWQG_fake_script)()
+coroutine.wrap(ZQEBYWN_fake_script)()
