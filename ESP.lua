@@ -1,6 +1,10 @@
 _G.ESP = true
 
-local GUI = loadstring(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/ESP_GUI.lua")()
+--[[
+GUI
+]]
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Metacalled2/Streets/main/ESP_GUI.lua")()
 
 local fonts = {
 	Fredoka = Enum.Font.FredokaOne,
