@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local OC = Instance.new("ImageButton")
@@ -14,8 +9,6 @@ local ESP_B = Instance.new("TextButton")
 local BD = Instance.new("TextLabel")
 local ESP = Instance.new("TextLabel")
 local STNGS = Instance.new("TextLabel")
-
---Properties:
 
 ScreenGui.Parent = game:GetService"CoreGui"
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -107,8 +100,6 @@ STNGS.TextColor3 = Color3.fromRGB(255, 255, 255)
 STNGS.TextScaled = true
 STNGS.TextSize = 14.000
 STNGS.TextWrapped = true
-
--- Scripts:
 
 local function UCWBQBY_fake_script() -- OC.O/C 
 	local script = Instance.new('LocalScript', OC)
