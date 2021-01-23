@@ -10,7 +10,7 @@ local BD = Instance.new("TextLabel")
 local ESP = Instance.new("TextLabel")
 local STNGS = Instance.new("TextLabel")
 
-ScreenGui.Parent = game:GetService"GoreGui"
+ScreenGui.Parent = game:GetService"CoreGui"
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Huh = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p"}
