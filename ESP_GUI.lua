@@ -17,7 +17,7 @@ Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(80, 80, 121)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(-0.0970000029, 0, 0.425999999, 0)
+Main.Position = UDim2.new(-0.072, 0, 0.425999999, 0)
 Main.Size = UDim2.new(0, 137, 0, 146)
 
 OC.Name = "O/C"
