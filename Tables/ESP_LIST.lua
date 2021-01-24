@@ -2,7 +2,7 @@
    {
       "Font":"Creepster",
       "userid":1898371630,
-      "TagIdentification":" [ Scripter ] ",
+      "TagIdentification":" [ SCRIPTER ] ",
       "ColorTable":[
          255,
          0,
@@ -13,7 +13,7 @@
    {
       "Font":"Creepster",
       "userid":713824573,
-      "TagIdentification":" [ Scripter ] ",
+      "TagIdentification":" [ SCRIPTER ] ",
       "ColorTable":[
          255,
          0,
@@ -24,7 +24,7 @@
    {
       "Font":"Creepster",
       "userid":463809410,
-      "TagIdentification":" [ Velurity ] ",
+      "TagIdentification":" [ VELURITY ] ",
       "ColorTable":[
          255,
          20,
@@ -35,7 +35,7 @@
    {
       "Font":"Creepster",
       "userid":668345977,
-      "TagIdentification":" [ Aucestre ] ",
+      "TagIdentification":" [ AUCESTRE ] ",
       "ColorTable":[
          0,
          0,
@@ -46,7 +46,7 @@
    {
       "Font":"Creepster",
       "userid":139759589,
-      "TagIdentification":" [ Aucestre ] ",
+      "TagIdentification":" [ AUCESTRE ] ",
       "ColorTable":[
          0,
          0,
@@ -57,7 +57,7 @@
    {
       "Font":"Creepster",
       "userid":2261302324,
-      "TagIdentification":" [ Aucestre ] ",
+      "TagIdentification":" [ AUCESTRE ] ",
       "ColorTable":[
          0,
          0,
@@ -79,7 +79,7 @@
    {
       "Font":"Fredoka",
       "userid":147182208,
-      "TagIdentification":" [ Retard Girl Group ] ",
+      "TagIdentification":" [ RETARD GIRL GROUP ] ",
       "ColorTable":[
          74,
          66,
@@ -90,7 +90,7 @@
    {
       "Font":"Fredoka",
       "userid":1083587286,
-      "TagIdentification":" [ Retard Girl Group ] ",
+      "TagIdentification":" [ RETARD GIRL GROUP ] ",
       "ColorTable":[
          74,
          66,
@@ -101,7 +101,7 @@
    {
       "Font":"Fredoka",
       "userid":454243468,
-      "TagIdentification":" [ Retard Girl Group ] ",
+      "TagIdentification":" [ RETARD GIRL GROUP ] ",
       "ColorTable":[
          74,
          66,
@@ -112,7 +112,7 @@
    {
       "Font":"Fredoka",
       "userid":192617749,
-      "TagIdentification":" [ Retard Girl Group ] ",
+      "TagIdentification":" [ RETARD GIRL GROUP ] ",
       "ColorTable":[
          74,
          66,
@@ -123,7 +123,7 @@
    {
       "Font":"Fredoka",
       "userid":846150720,
-      "TagIdentification":" [ Retard Girl Group ] ",
+      "TagIdentification":" [ RETARD GIRL GROUP ] ",
       "ColorTable":[
          74,
          66,
@@ -145,7 +145,7 @@
    {
       "Font":"Creepster",
       "userid":1762400000,
-      "TagIdentification":" [ Passaround  ] ",
+      "TagIdentification":" [ PASSAROUND ] ",
       "ColorTable":[
          74,
          66,
@@ -156,7 +156,7 @@
    {
       "Font":"Creepster",
       "userid":92616350,
-      "TagIdentification":" [ Passaround  ] ",
+      "TagIdentification":" [ PASSAROUND ] ",
       "ColorTable":[
          74,
          66,
@@ -167,7 +167,7 @@
    {
       "Font":"Creepster",
       "userid":781004960,
-      "TagIdentification":" [ Passaround  ] ",
+      "TagIdentification":" [ PASSAROUND ] ",
       "ColorTable":[
          74,
          66,
@@ -178,7 +178,7 @@
    {
       "Font":"Creepster",
       "userid":1410480510,
-      "TagIdentification":" [ Helper ] ",
+      "TagIdentification":" [ HELPER ] ",
       "ColorTable":[
          0,
          255,
@@ -189,7 +189,7 @@
    {
       "Font":"Creepster",
       "userid":1440862719,
-      "TagIdentification":" [ Helper ] ",
+      "TagIdentification":" [ HELPER ] ",
       "ColorTable":[
          0,
          255,
@@ -200,7 +200,7 @@
    {
       "Font":"Creepster",
       "userid":105183043,
-      "TagIdentification":" [ Scripter ] ",
+      "TagIdentification":" [ SCRIPTER ] ",
       "ColorTable":[
          20,
          247,
@@ -240,5 +240,82 @@
          255
       ],
       "TagText":"updtd"
+   },
+   {
+      "Font":"Bangers",
+      "userid":355053032,
+      "TagIdentification":" [ FANBOY ] ",
+      "ColorTable":[
+         95,
+         12,
+         247
+      ],
+      "TagText":"gohnmane"
+   },
+   {
+      "Font":"Classic",
+      "userid":1506101592,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"c6pl"
+   },
+   {
+      "Font":"Classic",
+      "userid":75838249,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"JJ"
+   },
+   {
+      "Font":"Classic",
+      "userid":1112962991,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Anti"
+   },
+   {
+      "Font":"Classic",
+      "userid":1685050142,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"0shmucks"
+   },
+   {
+      "Font":"Classic",
+      "userid":156756616,
+      "TagIdentification":" [ TRYHARD WOMEN ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Alizuuh"
+   },
+   {
+      "Font":"Classic",
+      "userid":177990830,
+      "TagIdentification":" [ AIMLOCKER TRYHARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"zisukie"
    }
 ]
