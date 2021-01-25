@@ -119,7 +119,7 @@ game:GetService"RunService".Heartbeat:Connect(function()
     for i = 1,#BBGUIS do
       BBGUIS[i].Enabled = true
       if BBGUIS[i]:FindFirstChild"TextLabel" then
-	BBGUIS[i]:FindFirstChild"TextLabel".Size = _G.Size			
+	BBGUIS[i]:FindFirstChild"TextLabel".TextSize = _G.Size			
       end
     end
   elseif not _G.ESP then
