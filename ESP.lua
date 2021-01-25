@@ -1,4 +1,5 @@
 _G.ESP = true
+_G.BD = true
 
 --[[
 GUI
