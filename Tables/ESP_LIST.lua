@@ -316,6 +316,39 @@
          0,
          119
       ],
-      "TagText":"zisukie"
+      "TagText":"Zisukie"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1186330995,
+      "TagIdentification":" [ BOX HEAD ] ",
+      "ColorTable":[
+         255,
+         255,
+         0
+      ],
+      "TagText":"Rheapher"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1977510288,
+      "TagIdentification":" [ TOP 1 AFRICAN ] ",
+      "ColorTable":[
+         255,
+         255,
+         0
+      ],
+      "TagText":"Berhan"
+   },
+   {
+      "Font":"Creepster",
+      "userid":111994154,
+      "TagIdentification":" [ SEX OFFENDER ] ",
+      "ColorTable":[
+         255,
+         255,
+         0
+      ],
+      "TagText":"Cherry"
    }
 ]
