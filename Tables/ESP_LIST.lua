@@ -342,6 +342,17 @@
    },
    {
       "Font":"Classic",
+      "userid":1506101592,
+      "TagIdentification":" [ DOGGY ]",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"LorIIzx"
+   },
+   {
+      "Font":"Classic",
       "userid":1240822610,
       "TagIdentification":" [ SIMP ] ",
       "ColorTable":[
