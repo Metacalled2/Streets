@@ -57,7 +57,7 @@ local function Tag(Player, Text, Color, Font)
   local BBGUI = Instance.new("BillboardGui")
   local BBGUI_Text = Instance.new("TextLabel")
   
-  BBGUI.Parent = Player.Character:WaitForChild"Head"
+  BBGUI.Parent = Player.Character:FindFirstChild"Head"
   BBGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
   BBGUI.Active = true
   BBGUI.AlwaysOnTop = true
