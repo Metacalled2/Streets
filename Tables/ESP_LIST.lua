@@ -308,6 +308,17 @@
       "TagText":"Townley ( SHARED )"
    },
    {
+      "Font":"Fredoka",
+      "userid":2032938950,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "BURNTLETTER"
+   },
+   {
       "Font":"Bangers",
       "userid":355053032,
       "TagIdentification":" [ FANBOY ] ",
@@ -331,6 +342,17 @@
    },
    {
       "Font":"Classic",
+      "userid":1240822610,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Dxrske"
+   },
+   {
+      "Font":"Classic",
       "userid":75838249,
       "TagIdentification":" [ SIMP ] ",
       "ColorTable":[
@@ -339,6 +361,17 @@
          119
       ],
       "TagText":"JJ"
+   },
+   {
+      "Font":"Classic",
+      "userid":1253699666,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Rabbit"
    },
    {
       "Font":"Classic",
@@ -474,6 +507,28 @@
    },
    {
       "Font":"Creepster",
+      "userid":92700958,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Roro"
+   },
+   {
+      "Font":"Creepster",
+      "userid":329574172,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Kev"
+   },
+   {
+      "Font":"Creepster",
       "userid":1579693798,
       "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
@@ -507,7 +562,7 @@
    },
    {
       "Font":"Creepster",
-      "userid":"116974029",
+      "userid":116974029,
       "TagIdentification":"[ RETARD ] ",
       "ColorTable":[
          255,
@@ -518,7 +573,7 @@
    },
    {
       "Font":"Creepster",
-      "userid":"97483119",
+      "userid":97483119,
       "TagIdentification":"[ SIMP ] ",
       "ColorTable":[
          255,
@@ -529,7 +584,7 @@
    },
    {
       "Font":"Classic",
-      "userid":"147106532",
+      "userid":147106532,
       "TagIdentification":"[ WEIRD ] ",
       "ColorTable":[
          255,
@@ -540,7 +595,7 @@
    },
    {
       "Font":"Classic",
-      "userid":"542844700",
+      "userid":542844700,
       "TagIdentification":"[ HOMOSEXUAL GUY ] ",
       "ColorTable":[
          255,
@@ -551,7 +606,7 @@
    },
    {
       "Font":"Classic",
-      "userid":"542844700",
+      "userid":542844700,
       "TagIdentification":"[ TRYHARD ] ",
       "ColorTable":[
          0,
@@ -559,5 +614,16 @@
          0
       ],
       "TagText":"zatnz"
+   }
+   {
+      "Font":"Classic",
+      "userid":1574565539,
+      "TagIdentification":"[ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"gziria"
    }
 ]
