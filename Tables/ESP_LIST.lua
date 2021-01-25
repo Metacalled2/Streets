@@ -728,7 +728,7 @@
    {
       "Font":"Creepster",
       "userid":97483119,
-      "TagIdentification":"[ SIMP ] ",
+      "TagIdentification":" [ SIMP ] ",
       "ColorTable":[
          255,
          0,
@@ -739,7 +739,7 @@
    {
       "Font":"Classic",
       "userid":147106532,
-      "TagIdentification":"[ WEIRD ] ",
+      "TagIdentification":" [ WEIRD ] ",
       "ColorTable":[
          255,
          69,
@@ -750,7 +750,7 @@
    {
       "Font":"Classic",
       "userid":542844700,
-      "TagIdentification":"[ HOMOSEXUAL GUY ] ",
+      "TagIdentification":" [ HOMOSEXUAL GUY ] ",
       "ColorTable":[
          255,
          255,
@@ -761,7 +761,7 @@
    {
       "Font":"Classic",
       "userid":542844700,
-      "TagIdentification":"[ TRYHARD ] ",
+      "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
          0,
          255,
@@ -772,7 +772,7 @@
    {
       "Font":"Classic",
       "userid":969290732,
-      "TagIdentification":"[ TRYHARD ] ",
+      "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
          0,
          255,
@@ -783,7 +783,7 @@
    {
       "Font":"Classic",
       "userid":1737676452,
-      "TagIdentification":"[ TRYHARD ] ",
+      "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
          0,
          255,
@@ -794,7 +794,7 @@
    {
       "Font":"Classic",
       "userid":1561373499,
-      "TagIdentification":"[ TRYHARD ] ",
+      "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
          0,
          255,
@@ -805,7 +805,7 @@
    {
       "Font":"Classic",
       "userid":1574565539,
-      "TagIdentification":"[ TRYHARD ] ",
+      "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
          0,
          255,
@@ -816,7 +816,7 @@
    {
       "Font":"Classic",
       "userid":1574565539,
-      "TagIdentification":"[ EXPLOITER ] ",
+      "TagIdentification":" [ EXPLOITER ] ",
       "ColorTable":[
          0,
          0,
