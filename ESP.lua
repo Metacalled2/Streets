@@ -73,7 +73,7 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.Text = Text
   BBGUI_Text.TextColor3 = Color3.fromRGB(R, G, B)
   BBGUI_Text.TextScaled = true
-  BBGUI_Text.TextSize = 25.00
+  BBGUI_Text.TextSize = 15.00
   BBGUI_Text.TextWrapped = false
 	
   table.insert(BBGUIS, BBGUI)
