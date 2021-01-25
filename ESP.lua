@@ -1,6 +1,6 @@
 _G.ESP = true
 _G.BD = true
-_G.Size = 15.00
+_G.Size = 15
 
 --[[
 GUI
