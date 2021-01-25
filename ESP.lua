@@ -59,17 +59,17 @@ local function GetFont(String)
 end
 
 local function GetTagOrCustom(String)
- local Custom = true
-
-   for Key, Value in pairs(TagL) do
-      if Value == String then
-        Custom = true
+   local Custom = true
+   local NonCustoms = {"NG", "OG", "TH", "SC", "CO", "EX", "TR", "RE", "SMP"}
+   
+      if table.find(NonCustoms, String) then
+        Custom = false
       end
-   end
 
    if Custom then
       local Split = string.split(String, "Custom/")
-      return " [ " .. tostring(Split[2]) .. " ] "
+      warn('h')
+      return " [ " .. tostring(Split[1]) .. " ] "
    else
    if String == "NG" then
         return " [ " .. TagL.NG .. " ] "
@@ -130,7 +130,7 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.Text = Text
   BBGUI_Text.TextColor3 = Color3.fromRGB(R, G, B)
   BBGUI_Text.TextScaled = true
-  BBGUI_Text.TextSize = 25.00
+  BBGUI_Text.TextSize = 15
   BBGUI_Text.TextWrapped = false
 	
   table.insert(BBGUIS, BBGUI)
@@ -138,7 +138,8 @@ end
 
 local function IdentifyPlayer(Table, Plr)
     for i = 1,#Table do
-      if Table[i].userid == Plr.UserId and not Plr.UserId == game.Players.LocalPlayer.UserId then
+      if Table[i].userid == Plr.UserId then
+        warn(Plr.Name)
         Tag(Plr, Table[i].TagText .. GetTagOrCustom(Table[i].TagIdentification), GetColor(Table[i].Color), GetFont(Table[i].Font))
         return true
       end
