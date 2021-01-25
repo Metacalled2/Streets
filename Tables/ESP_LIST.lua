@@ -562,6 +562,17 @@
    },
    {
       "Font":"Creepster",
+      "userid":1327906710,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"90BPM"
+   },
+   {
+      "Font":"Creepster",
       "userid":932528290,
       "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
