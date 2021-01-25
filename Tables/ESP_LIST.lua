@@ -541,7 +541,7 @@
    {
       "Font":"Classic",
       "userid":"542844700",
-      "TagIdentification":"[ HOMOSEXUAL ] ",
+      "TagIdentification":"[ HOMOSEXUAL GUY ] ",
       "ColorTable":[
          255,
          255,
