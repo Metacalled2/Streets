@@ -1,5 +1,6 @@
 _G.ESP = true
 _G.BD = true
+_G.Size = 15.00
 
 --[[
 GUI
@@ -74,7 +75,7 @@ local function Tag(Player, Text, Color, Font)
   BBGUI_Text.Text = Text
   BBGUI_Text.TextColor3 = Color3.fromRGB(R, G, B)
   BBGUI_Text.TextScaled = true
-  BBGUI_Text.TextSize = 19.00
+  BBGUI_Text.TextSize = _G.Size
   BBGUI_Text.TextWrapped = false
 	
   table.insert(BBGUIS, BBGUI)
@@ -117,6 +118,9 @@ game:GetService"RunService".Heartbeat:Connect(function()
   if _G.ESP then
     for i = 1,#BBGUIS do
       BBGUIS[i].Enabled = true
+      if BBGUIS[i]:FindFirstChild"TextLabel" then
+	BBGUIS[i]:FindFirstChild"TextLabel".Size = _G.Size			
+      end
     end
   elseif not _G.ESP then
       for i = 1,#BBGUIS do
