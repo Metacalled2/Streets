@@ -573,6 +573,28 @@
    },
    {
       "Font":"Creepster",
+      "userid":1385822787,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"V9UT"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1385822787,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"V9UT"
+   },
+   {
+      "Font":"Creepster",
       "userid":156878502,
       "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
@@ -727,6 +749,39 @@
    },
    {
       "Font":"Classic",
+      "userid":969290732,
+      "TagIdentification":"[ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Lewis"
+   },
+   {
+      "Font":"Classic",
+      "userid":1737676452,
+      "TagIdentification":"[ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"FanOfNishioka"
+   },
+   {
+      "Font":"Classic",
+      "userid":1561373499,
+      "TagIdentification":"[ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"YouMightBeASped"
+   },
+   {
+      "Font":"Classic",
       "userid":1574565539,
       "TagIdentification":"[ TRYHARD ] ",
       "ColorTable":[
@@ -746,5 +801,38 @@
          255
       ],
       "TagText":"NoDripJosh"
+   },
+   {
+      "Font":"Classic",
+      "userid":2039870027,
+      "TagIdentification":"[ TROLL ] ",
+      "ColorTable":[
+         255, 
+         162, 
+         13
+      ],
+      "TagText":"Mittalt"
+   },
+   {
+      "Font":"Classic",
+      "userid":351456158,
+      "TagIdentification":"[ TROLL ] ",
+      "ColorTable":[
+         255, 
+         162, 
+         13
+      ],
+      "TagText":"Fraizer"
+   },
+   {
+      "Font":"Classic",
+      "userid":1905951531,
+      "TagIdentification":"[ TROLL ] ",
+      "ColorTable":[
+         255, 
+         162, 
+         13
+      ],
+      "TagText":"Shonton"
    }
 ]
