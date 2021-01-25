@@ -508,7 +508,7 @@
    {
       "Font":"Creepster",
       "userid":"116974029",
-      "TagIdentification":"[ RETARD] ",
+      "TagIdentification":"[ RETARD ] ",
       "ColorTable":[
          255,
          0,
@@ -519,7 +519,7 @@
    {
       "Font":"Creepster",
       "userid":"97483119",
-      "TagIdentification":"[ SIMP] ",
+      "TagIdentification":"[ SIMP ] ",
       "ColorTable":[
          255,
          0,
