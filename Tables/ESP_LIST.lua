@@ -526,5 +526,38 @@
          119
       ],
       "TagText":"Michskii"
+   },
+   {
+      "Font":"Classic",
+      "userid":"147106532",
+      "TagIdentification":"[ WEIRD ] ",
+      "ColorTable":[
+         255,
+         69,
+         156
+      ],
+      "TagText":"Shauns GF"
+   },
+   {
+      "Font":"Classic",
+      "userid":"542844700",
+      "TagIdentification":"[ HOMOSEXUAL ] ",
+      "ColorTable":[
+         255,
+         255,
+         0
+      ],
+      "TagText":"Yuhxra"
+   },
+   {
+      "Font":"Classic",
+      "userid":"542844700",
+      "TagIdentification":"[ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"zatnz"
    }
 ]
