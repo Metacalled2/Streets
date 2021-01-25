@@ -177,6 +177,17 @@
    },
    {
       "Font":"Creepster",
+      "userid":2258301745,
+      "TagIdentification":" [ PASSAROUND ] ",
+      "ColorTable":[
+         74,
+         66,
+         135
+      ],
+      "TagText":"Kim"
+   },
+   {
+      "Font":"Creepster",
       "userid":1410480510,
       "TagIdentification":" [ HELPER ] ",
       "ColorTable":[
@@ -239,7 +250,62 @@
          255,
          255
       ],
-      "TagText":"updtd"
+      "TagText":"Updtd"
+   },
+   {
+      "Font":"Creepster",
+      "userid":24158945,
+      "TagIdentification":" [ COOL ] ",
+      "ColorTable":[
+         0,
+         255,
+         255
+      ],
+      "TagText":"Scottish"
+   },
+   {
+      "Font":"Creepster",
+      "userid":94428247,
+      "TagIdentification":" [ COOL ] ",
+      "ColorTable":[
+         0,
+         255,
+         255
+      ],
+      "TagText":"Charlotte"
+   },
+   {
+      "Font":"Fredoka",
+      "userid":1937111826,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"SlayesXl"
+   },
+   {
+      "Font":"Fredoka",
+      "userid":221789271,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Townley"
+   },
+   {
+      "Font":"Fredoka",
+      "userid":1578148497,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Townley ( SHARED )"
    },
    {
       "Font":"Bangers",
@@ -309,6 +375,39 @@
    },
    {
       "Font":"Classic",
+      "userid":1260243991,
+      "TagIdentification":" [ TRYHARD WOMEN ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"gl8c"
+   },
+   {
+      "Font":"Classic",
+      "userid":41032892,
+      "TagIdentification":" [ TRYHARD WOMEN ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Kitncy"
+   },
+   {
+      "Font":"Classic",
+      "userid":114239440,
+      "TagIdentification":" [ TRYHARD WOMEN ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Kuiasii"
+   },
+   {
+      "Font":"Classic",
       "userid":177990830,
       "TagIdentification":" [ AIMLOCKER TRYHARD ] ",
       "ColorTable":[
@@ -350,5 +449,49 @@
          0
       ],
       "TagText":"Cherry"
+   },
+   {
+      "Font":"Creepster",
+      "userid":147387693,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Demasaii"
+   },
+   {
+      "Font":"Creepster",
+      "userid":932528290,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Do8m"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1579693798,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Remi"
+   },
+   {
+      "Font":"Creepster",
+      "userid":316508463,
+      "TagIdentification":" [ TRYHARD / 'TOP 1' ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Josh"
    }
 ]
