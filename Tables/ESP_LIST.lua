@@ -504,5 +504,27 @@
          0
       ],
       "TagText":"Punk"
+   },
+   {
+      "Font":"Creepster",
+      "userid":"116974029",
+      "TagIdentification":"[ RETARD] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"NOCONTEXT"
+   },
+   {
+      "Font":"Creepster",
+      "userid":"97483119",
+      "TagIdentification":"[ SIMP] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Michskii"
    }
 ]
