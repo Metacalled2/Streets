@@ -518,6 +518,61 @@
    },
    {
       "Font":"Creepster",
+      "userid":156878502,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"F6oor"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1576275919,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"The_L7"
+   },
+   {
+      "Font":"Creepster",
+      "userid":78619360,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"CellService"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1255702055,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"TokyoRoka"
+   },
+   {
+      "Font":"Creepster",
+      "userid":1617409512,
+      "TagIdentification":" [ TRYHARD ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Cananqtt"
+   },
+   {
+      "Font":"Creepster",
       "userid":329574172,
       "TagIdentification":" [ TRYHARD ] ",
       "ColorTable":[
