@@ -81,7 +81,8 @@ end
 
 local function IdentifyPlayer(Table, Plr)
     for i = 1,#Table do
-      if Table[i].userid == Plr.UserId and not Plr.UserId == game.Players.LocalPlayer.UserId then
+      if Table[i].userid == Plr.UserId then
+        if Table[i].userid == game.Players.LocalPlayer.UserId then return warn('is self') end
 	warn(Plr.Name .. " FOUND!")
         Tag(Plr, Table[i].TagText .. Table[i].TagIdentification, Table[i].ColorTable, GetFont(Table[i].Font))
         return true
