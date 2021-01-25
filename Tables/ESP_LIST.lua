@@ -309,6 +309,39 @@
    },
    {
       "Font":"Fredoka",
+      "userid":348975210,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Hellboy"
+   },
+   {
+      "Font":"Fredoka",
+      "userid":695827286,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Liv"
+   },
+   {
+      "Font":"Fredoka",
+      "userid":436567161,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"Vehel"
+   },
+   {
+      "Font":"Fredoka",
       "userid":2032938950,
       "TagIdentification":" [ RETARD ] ",
       "ColorTable":[
@@ -339,6 +372,17 @@
          119
       ],
       "TagText":"c6pl"
+   },
+   {
+      "Font":"Classic",
+      "userid":56465077,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Finster"
    },
    {
       "Font":"Classic",
