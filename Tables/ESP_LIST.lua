@@ -625,5 +625,16 @@
          0
       ],
       "TagText":"gziria"
+   },
+   {
+      "Font":"Classic",
+      "userid":1574565539,
+      "TagIdentification":"[ EXPLOITER ] ",
+      "ColorTable":[
+         0,
+         0,
+         255
+      ],
+      "TagText":"NoDripJosh"
    }
 ]
