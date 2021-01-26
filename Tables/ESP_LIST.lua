@@ -23,6 +23,17 @@
    },
    {
       "Font":"Creepster",
+      "userid":105183043,
+      "TagIdentification":" [ SCRIPTER ] ",
+      "ColorTable":[
+         20,
+         247,
+         244
+      ],
+      "TagText":"Charlie"
+   },
+   {
+      "Font":"Creepster",
       "userid":463809410,
       "TagIdentification":" [ VELURITY ] ",
       "ColorTable":[
@@ -207,17 +218,6 @@
          0
       ],
       "TagText":"Tester"
-   },
-   {
-      "Font":"Creepster",
-      "userid":105183043,
-      "TagIdentification":" [ SCRIPTER ] ",
-      "ColorTable":[
-         20,
-         247,
-         244
-      ],
-      "TagText":"Charlie"
    },
    {
       "Font":"Creepster",
@@ -550,6 +550,28 @@
       "TagText":"Cherry"
    },
    {
+      "Font":"Classic",
+      "userid":147106532,
+      "TagIdentification":" [ WEIRD ] ",
+      "ColorTable":[
+         255,
+         69,
+         156
+      ],
+      "TagText":"Shauns GF"
+   },
+   {
+      "Font":"Classic",
+      "userid":542844700,
+      "TagIdentification":" [ HOMOSEXUAL GUY ] ",
+      "ColorTable":[
+         255,
+         255,
+         0
+      ],
+      "TagText":"Yuhxra"
+   },
+   {
       "Font":"Creepster",
       "userid":147387693,
       "TagIdentification":" [ TRYHARD ] ",
@@ -693,72 +715,6 @@
       "TagText":"Remi"
    },
    {
-      "Font":"Creepster",
-      "userid":316508463,
-      "TagIdentification":" [ TRYHARD / 'TOP 1' ] ",
-      "ColorTable":[
-         0,
-         255,
-         0
-      ],
-      "TagText":"Josh"
-   },
-   {
-      "Font":"Creepster",
-      "userid":971790374,
-      "TagIdentification":" [ TOP 1 TRIM ] ",
-      "ColorTable":[
-         0,
-         255,
-         0
-      ],
-      "TagText":"Punk"
-   },
-   {
-      "Font":"Creepster",
-      "userid":116974029,
-      "TagIdentification":"[ RETARD ] ",
-      "ColorTable":[
-         255,
-         0,
-         0
-      ],
-      "TagText":"NOCONTEXT"
-   },
-   {
-      "Font":"Creepster",
-      "userid":97483119,
-      "TagIdentification":" [ SIMP ] ",
-      "ColorTable":[
-         255,
-         0,
-         119
-      ],
-      "TagText":"Michskii"
-   },
-   {
-      "Font":"Classic",
-      "userid":147106532,
-      "TagIdentification":" [ WEIRD ] ",
-      "ColorTable":[
-         255,
-         69,
-         156
-      ],
-      "TagText":"Shauns GF"
-   },
-   {
-      "Font":"Classic",
-      "userid":542844700,
-      "TagIdentification":" [ HOMOSEXUAL GUY ] ",
-      "ColorTable":[
-         255,
-         255,
-         0
-      ],
-      "TagText":"Yuhxra"
-   },
-   {
       "Font":"Classic",
       "userid":542844700,
       "TagIdentification":" [ TRYHARD ] ",
@@ -814,6 +770,50 @@
       "TagText":"gziria"
    },
    {
+      "Font":"Creepster",
+      "userid":316508463,
+      "TagIdentification":" [ TRYHARD / 'TOP 1' ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Josh"
+   },
+   {
+      "Font":"Creepster",
+      "userid":971790374,
+      "TagIdentification":" [ TOP 1 TRIM ] ",
+      "ColorTable":[
+         0,
+         255,
+         0
+      ],
+      "TagText":"Punk"
+   },
+   {
+      "Font":"Creepster",
+      "userid":116974029,
+      "TagIdentification":" [ RETARD ] ",
+      "ColorTable":[
+         255,
+         0,
+         0
+      ],
+      "TagText":"NOCONTEXT"
+   },
+   {
+      "Font":"Creepster",
+      "userid":97483119,
+      "TagIdentification":" [ SIMP ] ",
+      "ColorTable":[
+         255,
+         0,
+         119
+      ],
+      "TagText":"Michskii"
+   },
+   {
       "Font":"Classic",
       "userid":1574565539,
       "TagIdentification":" [ EXPLOITER ] ",
@@ -823,6 +823,28 @@
          255
       ],
       "TagText":"NoDripJosh"
+   },
+   {
+      "Font":"Classic",
+      "userid":1955186829,
+      "TagIdentification":" [ EXPLOITER ] ",
+      "ColorTable":[
+         0,
+         0,
+         255
+      ],
+      "TagText":"LvZare"
+   },
+   {
+      "Font":"Classic",
+      "userid":1082821237,
+      "TagIdentification":" [ EXPLOITER ] ",
+      "ColorTable":[
+         0,
+         0,
+         255
+      ],
+      "TagText":"Million"
    },
    {
       "Font":"Classic",
